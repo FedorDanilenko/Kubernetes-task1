@@ -1,0 +1,15 @@
+image:
+  repository: johnmorg/kuber
+  tag: v0.1
+
+service:
+  name: app
+  port: 8080
+
+ingress:
+  enable: true
+  hostname: task.com
+
+volume:
+  enable: true
+  hostPath:
